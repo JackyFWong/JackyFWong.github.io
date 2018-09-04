@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    box-sizing: border-box;
+}
 
-body {
-    margin: 10px;
+body { margin: 10px;
 }
 .clearfix::after {
     content: "";
@@ -12,15 +14,17 @@ body {
 /* NAVBAR */
 ul.navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
+    margin: 5px;
+    width: 175px;
     background-color: #607D8B;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+    height: calc(100% - 10px);
     font-family: "Roboto", sans-serif;
     padding: 10px 10px 10px 10px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 li a {
     display: block;
@@ -49,17 +53,27 @@ li a:hover:not(.active) {
     background-color: #455A64;
     color: #ffffff;
     text-align: center;
-    padding: 10px 10px 10px 10px; <!-- top, right, bottom, left -->
+    padding: 10px 0px 10px 0px; /* top, right, bottom, left */
+    margin: 5px;
     font-family: "Roboto", sans-serif;
-    width: calc(90% - 50px);
-    float: right;
+    width: calc(100% - 190px);
+    position: fixed;
+    right: 0;
+}
+.header {
+    top: 0;
+}
+.footer {
+    bottom: 0;
 }
 
 /* MAIN BODY */
 .maincontent {
-    margin-left: 20%;
-    padding: 20px 20px;
-    height: 1000px;
+    margin-left: 200px;
+    /*padding: 20px;*/
+    /*height: 500px;*/
+    margin-top: 110px;
+    top: 0;
 }
 
 /* TEXT */
