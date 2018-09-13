@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Space+Mono');
 * {
     box-sizing: border-box;
 }
 
-body { margin: 10px;
-}
 .clearfix::after {
     content: "";
     clear: both;
@@ -25,6 +23,7 @@ ul.navbar {
     top: 0;
     left: 0;
     overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
 }
 li a {
     display: block;
@@ -42,8 +41,8 @@ li a:hover:not(.active) {
     color: #000000;
 }
 .navicon {
-    width: 20px;
-    height: auto;
+    width: 40px;
+    height: 20px;
     vertical-align: baseline;
     padding-right: 20px;
 }
@@ -53,7 +52,7 @@ li a:hover:not(.active) {
     background-color: #455A64;
     color: #ffffff;
     text-align: center;
-    padding: 10px 0px 10px 0px; /* top, right, bottom, left */
+    padding: 10px 0px; 
     margin: 5px;
     font-family: "Roboto", sans-serif;
     width: calc(100% - 190px);
@@ -62,26 +61,59 @@ li a:hover:not(.active) {
 }
 .header {
     top: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+    height: 100px;
 }
 .footer {
     bottom: 0;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 /* MAIN BODY */
 .maincontent {
-    margin-left: 200px;
-    /*padding: 20px;*/
-    /*height: 500px;*/
-    margin-top: 110px;
+    overflow: auto;
+    height: calc(100% - 176px);
+    position: absolute;
     top: 0;
+    right: 0;
+    bottom: 0;
+    right: 0;
+    margin: 110px 5px 58px 186px;
+    padding: 0;
 }
 
 /* TEXT */
+.header h1 {
+    font-size: 30px;
+}
+.welcome h1 {
+    font-size: 50px;
+    font-family: "Space Mono", monospace;
+    font-weight: normal;
+    color: #212121;
+}
 .maintext {
     font-family: "Roboto", sans-serif;
     color: #212121;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-h1.header {
-    font-family: "Roboto", sans-serif;
-    color: #212121;
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #8888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
