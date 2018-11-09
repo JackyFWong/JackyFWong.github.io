@@ -28,7 +28,7 @@ ul.navbar {
     list-style-type: none;
     margin: 5px;
     width: 175px;
-    background-color: #607D8B;
+    background: rgba(96,125,139,0.75);
     height: calc(100% - 10px);
     font-family: "Roboto", sans-serif;
     padding: 10px 10px 10px 10px;
@@ -63,7 +63,7 @@ li a:hover:not(.active) {
 
 /* HEADER */
 .header, .footer {
-    background-color: #455A64;
+    background: rgba(69,90,100,0.75);
     color: #ffffff;
     text-align: center;
     padding: 10px 0px; 
@@ -154,6 +154,15 @@ span.emphasis {
     color: #ffffff;
     margin: 7px 0;
 }
+.inlinea {
+    text-decoration: underline;
+    padding: 0;
+    display: inline;
+}
+.inlinea:hover:not(.active) {
+    background-color: transparent;
+    color: #ffffff;
+}
 
 /* SKILLS */
 .skilltable {
@@ -163,7 +172,7 @@ span.emphasis {
     color: #ffffff;
 }
 td {
-    width: 250px;
+    width: 100px;
 }
 
 /* CONTACT */
