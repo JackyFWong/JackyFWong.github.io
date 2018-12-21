@@ -28,7 +28,7 @@ ul.navbar {
     list-style-type: none;
     margin: 5px;
     width: 175px;
-    background: rgba(96,125,139,0.75);
+    background: rgba(96,125,139,0.9);
     height: calc(100% - 10px);
     font-family: "Roboto", sans-serif;
     padding: 10px 10px 10px 10px;
@@ -63,7 +63,7 @@ li a:hover:not(.active) {
 
 /* HEADER */
 .header, .footer {
-    background: rgba(69,90,100,0.75);
+    background: rgba(69,90,100,0.9);
     color: #ffffff;
     text-align: center;
     padding: 10px 0px; 
@@ -98,7 +98,7 @@ li a:hover:not(.active) {
     margin: 110px 5px 58px 186px;
     padding: 0;
     width: calc(100% - 190px);
-    background:rgba(38,49,55,0.75);
+    background:rgba(38,49,55,0.9);
 }
 .linelist {
     border-left: 5px solid #BDBDBD;
