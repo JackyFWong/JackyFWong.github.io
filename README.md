@@ -7,6 +7,4 @@ Navigation bar icons provided by Google, located [on their website](https://mate
 
 Contact icons provided by Iconmonstr, located [on their website](https://iconmonstr.com/).
 
-Background art provided by Kvacm, located [at his website](http://www.kvacmart.com/).
-
 Fonts provded by Google, located [on their fonts website](https://fonts.google.com/).
