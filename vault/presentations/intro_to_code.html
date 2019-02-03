@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	 <Title>Intro to Code</title>
+	 <meta charset="utf-8">
+	 <style>
+		@import url('https://fonts.googleapis.com/css?family=Raleway');
+		@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+		@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,700');
+
+		body { font-family: 'Roboto'; }
+		h1, h2, h3 {
+		  font-family: 'Raleway';
+		  font-weight: normal;
+		}
+		.emph {
+			color: #5ecff2;
+			font-weight: bold;
+		}
+		.remark-code, .remark-inline-code { font-family: 'IBM Plex Mono'; }
+	 </style>
+  </head>
+  <body>
+	 <textarea id="source">
+
+class: left, middle
+
+# .emph[Introduction to Coding]
+### SSEO: Week 4
+#### Jacky Wong
+
+---
+
+# Agenda
+
+1. What is code?
+2. Why do we code?
+3. What does code do in a rocket?
+4. What kind of code will we be using?
+5. Examples
+
+```python
+import json
+import sys
+
+# parse a json file for given commands
+def parse_file(filepath):
+	data = []
+	with open(filepath, 'r') as file_obj:
+		file_data = json.load(file_obj)
+
+		# conc = concurrent set of commands
+		for conc in file_data:
+			row = []
+
+			# key being pressed
+			if conc["type"] == "key":
+				for keys in conc["cmd"]:
+					row.append([ keys["dur"], keys["key"] ])
+				data.append([ conc["type"], row, conc["num"] ])
+
+			# comment being printed on console
+			elif conc["type"] == "comment":
+				data.append([conc["type"], conc["cmd"]])
+
+			else:
+				sys.exit("invalid input: json error")
+
+	return data
+```
+
+???
+What is code? Why do we code? What are the different kinds of code?
+What does code do on a rocket?
+
+What kind of code will we be using and why?
+
+We will show some snippets of code and see if you can see what it does.
+
+We will also run some code with you!
+
+(The example code is just for show).
+
+---
+
+class: middle, center
+background-image: url(https://images.pexels.com/photos/239898/pexels-photo-239898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
+# .emph[What is code?]
+
+???
+Ask for what the class thinks code is.
+
+---
+
+class: middle, center
+
+## Why do we code?
+
+???
+Again, ask for the class' opinion as to why people write code.
+
+---
+
+# Intro to Code
+
+### What is code?
+Code is made up of 'stuff' people type to tell a computer to do what they want.
+
+Programmers write code, and you will be programmers in a bit!
+
+--
+
+### Why do we code?
+Code runs almost everything technology! This includes: a laptop, a phone, the internet, new cars,
+a cash register, and of course, rockets!
+
+---
+
+## Different kinds of code
+
+### Websites
+- HTML
+- PHP
+
+### Software
+- C
+- .emph[C++]
+- Java
+- Python 
+
+.center[<img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png" width="100" height=auto>     <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" width="100" height=auto>     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2000px-Python-logo-notext.svg.png" width="100" height=auto>]
+
+???
+Types of code are called different 'languages'.
+
+We will be using C++, a language like C but with more stuff!
+
+---
+
+class: middle, center
+background-image: url(https://media.wired.com/photos/5bdb590f9767b57847fe4222/master/pass/soyuz.jpg)
+
+## .emph[What does code do in a rocket?]
+
+???
+If you already covered this, ask for a reminder, otherwise:
+
+Ask class what they think code does on a rocket.
+
+---
+
+## In a Rocket...
+- Aviation electronics (avionics)
+- Parachutes, staging, sensors
+
+--
+
+In our rocket, we use an "Arudino" to hold our code and run it when we tell it to.
+
+.center[<img src="https://openclipart.org/image/2400px/svg_to_png/278039/Arduino-Fixed.png" width="500" height=auto>]
+
+	 </textarea>
+	 <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+	 </script>
+	 <script>
+		var slideshow = remark.create();
+	 </script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+ 	box-sizing: border-box;
+}
+
+html, body {
+	height: calc(100% - 10px);
+}
+
+body {
+	margin: 0;
+	background-image: url("glacier.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.everything {
+	width: 75%;
+	height: 100%;
+	margin: 10px auto;
+	background: rgba(38, 49, 55, 0.9);
+}
+
+/* HEADER */
+.heading {
+	padding: 0;
+}
+
+.heading h1 {
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: #333;
+	text-align: center;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.navbar a {
+	display: inline-block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.section {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	color: #ffffff;
+	margin: 0;
+}
+.content {
+	color: #ffffff;
+	padding: 10px 80px 30px;
+	margin: 0;
+	text-align: center;
+}
+.section {
+	margin: 0;
+}
+
+.section a {
+	color: #ffffff;
+	margin: 0;
+	text-decoration: none;
+}
