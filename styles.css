@@ -1,224 +1,224 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Raleway');
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+	content: "";
+	clear: both;
+	display: table;
 }
 
 html {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    background-image: url("bkg-img.jpg");
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+	background-image: url("bkg-img.jpg");
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 /* NAVBAR */
 ul.navbar {
-    list-style-type: none;
-    margin: 5px;
-    width: 175px;
-    background: rgba(96,125,139,0.9);
-    height: calc(100% - 10px);
-    font-family: "Roboto", sans-serif;
-    padding: 10px 10px 10px 10px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    font-family: "Roboto", sans-serif;
+	list-style-type: none;
+	margin: 5px;
+	width: 175px;
+	background: rgba(96,125,139,0.9);
+	height: calc(100% - 10px);
+	font-family: "Roboto", sans-serif;
+	padding: 10px 10px 10px 10px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	font-family: "Roboto", sans-serif;
 }
 li a {
-    display: block;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
+	display: block;
+	color: #ffffff;
+	padding: 10px 20px;
+	text-decoration: none;
 }
 li a.active {
-    background-color: #546E7A;
-    color: #ffffff;
-    text-decoration: none;
+	background-color: #546E7A;
+	color: #ffffff;
+	text-decoration: none;
 }
 li a:hover:not(.active) {
-    background-color: #ffffff;
-    color: #000000;
+	background-color: #ffffff;
+	color: #000000;
 }
 .navicon {
-    width: 40px;
-    height: 20px;
-    vertical-align: baseline;
-    padding-right: 20px;
+	width: 40px;
+	height: 20px;
+	vertical-align: baseline;
+	padding-right: 20px;
 }
 
 /* HEADER */
 .header, .footer {
-    background: rgba(69,90,100,0.9);
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0px; 
-    margin: 5px;
-    font-family: "Roboto", sans-serif;
-    width: calc(100% - 190px);
-    position: fixed;
-    right: 0;
+	background: rgba(69,90,100,0.9);
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0px; 
+	margin: 5px;
+	font-family: "Roboto", sans-serif;
+	width: calc(100% - 190px);
+	position: fixed;
+	right: 0;
 }
 .header {
-    top: 0;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 30px;
-    height: 100px;
+	top: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+	height: 100px;
 }
 .footer {
-    bottom: 0;
-    color: #ffffff;
-    font-size: 12px;
+	bottom: 0;
+	color: #ffffff;
+	font-size: 12px;
 }
 
 /* MAIN BODY */
 .maincontent {
-    overflow: auto;
-    height: calc(100% - 176px);
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 110px 5px 58px 186px;
-    padding: 0;
-    width: calc(100% - 190px);
-    background:rgba(38,49,55,0.9);
+	overflow: auto;
+	height: calc(100% - 176px);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 110px 5px 58px 186px;
+	padding: 0;
+	width: calc(100% - 190px);
+	background:rgba(38,49,55,0.9);
 }
 .linelist {
-    border-left: 5px solid #BDBDBD;
-    list-style-type: none;
-    padding: 5px;
-    margin-left: 10px;
+	border-left: 5px solid #BDBDBD;
+	list-style-type: none;
+	padding: 5px;
+	margin-left: 10px;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 /* TEXT */
 .section {
-    font-size: 25px;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    color: #4CAF50;
-    margin: 0;
+	font-size: 25px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	color: #4CAF50;
+	margin: 0;
 }
 .header h1 {
-    font-size: 30px;
+	font-size: 30px;
 }
 .textwrap {
-    margin: 0 0 0 10px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+	margin: 0 0 0 10px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .welcome {
-    font-size: 40px;
-    line-height: 47px;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 5px;
-    width: 50%;
+	font-size: 40px;
+	line-height: 47px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 5px;
+	width: 50%;
 }
 .profile {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 0; bottom: 0; left: 55%;
-    margin: 0 20px;
-    border-radius: 10px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0; bottom: 0; left: 55%;
+	margin: 0 20px;
+	border-radius: 10px;
 }
 span.emphasis {
-    color: #4CAF50;
+	color: #4CAF50;
 }
 .maintext {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    color: #ffffff;
-    margin: 7px 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
+	margin: 7px 0;
 }
 .inlinea {
-    text-decoration: underline;
-    padding: 0;
-    display: inline;
+	text-decoration: underline;
+	padding: 0;
+	display: inline;
 }
 .inlinea:hover:not(.active) {
-    background-color: transparent;
-    color: #ffffff;
+	background-color: transparent;
+	color: #ffffff;
 }
 
 /* SKILLS */
 .skilltable {
-    width: 500px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    color: #ffffff;
+	width: 500px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
 }
 td {
-    width: 100px;
+	width: 100px;
 }
 
 /* CONTACT */
 .contacttable {
-    width: 100%;
-    height: 100px;
-    border: 0px;
-    margin: 0px;
-    padding: 10px;
+	width: 100%;
+	height: 100px;
+	border: 0px;
+	margin: 0px;
+	padding: 10px;
 }
 .button {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
 }
 /* on hover phone */
 #callme {position: relative; margin: auto; width:100px; height:100px;}
 #callme .button,
 #callme .text {transition: opacity 0.5s ease-in-out;}
 #callme .text {
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    line-height:100px;
-    height:100px;
-    opacity:0;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    color: #ffffff;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	line-height:100px;
+	height:100px;
+	opacity:0;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #ffffff;
 }
 #callme:hover .button {opacity:0;}
 #callme:hover .text {opacity:1;}
 
 /* SCROLLBAR */
 ::-webkit-scrollbar {
-    width: 10px;
+	width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+	background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #8888;
+	background: #8888;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+	background: #555;
 }
