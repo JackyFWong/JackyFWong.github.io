@@ -4,12 +4,13 @@
 
 <head>
     <link type="text/css" rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <title>blackjackjs</title>
 </head>
 
 <body>
     <h1>blackjackjs</h1>
-    <h3>Jacky Wong</h3>
+    <h2>Jacky Wong</h2>
     <p>This is an extremely crude implementation of blackjack made in JavaScript 
         for my GC 3400 class at Clemson University. Source code is located 
         <a href="https://github.com/JackyFWong/blackjackjs">here</a>.
@@ -17,19 +18,8 @@
 
     <hr>
 
-    <p>You are playing against one computer opponent. There are modified rules.
-    </p>
-    <ul>
-        <li>Ace is worth 1 point</li>
-        <li>Face cards are 10 points</li>
-        <li>There is no dealer</li>
-        <li>You always go first</li>
-        <li>Only actions are to hit; no doubling, splitting, or surrendering</li>
-        <li>Opponent can stand at each of your hits</li>
-        <li>Get as close to 21 as possible</li>
-    </ul>
+    <p>You are playing against one computer opponent. Read the rules.</p>
 
-    <hr>
 
     <p>Start button can be used to restart the game.</p>
 
@@ -41,6 +31,22 @@
     <p id="enemy"></p>
 
     <script src="main.js"></script>
+
+    <hr>
+
+    <h3>Modified rules</h3>
+    <ul>
+        <li>Ace is worth 1 point</li>
+        <li>Face cards are 10 points</li>
+        <li>There is no dealer</li>
+        <li>You always go first</li>
+        <li>Only actions are to hit; no doubling, splitting, or surrendering</li>
+        <li>Opponent can stand at each of your hits</li>
+        <li>Get as close to 21 as possible</li>
+        <li>You can lose</li>
+        <li>Card format: [suite],[rank]</li>
+        <li>Suites: c=club, h=heart, s=spade, d=diamond</li>
+    </ul>
 
 </body>
 

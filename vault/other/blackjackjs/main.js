@@ -32,32 +32,32 @@ function drawAction(player) {
     // get a random card via random index
     var ind = Math.floor(Math.random() * (deck.length - 1));
     var newLen = player.push(deck[ind]);
+    var valid = true;
 
     if (player === enemy) {
         enemyScore += addPoints(player[newLen - 1][1]);
         if (enemyScore > 21) {
             window.alert("Enemy has lost! Over 21");
+            valid = false;
         }
-        else {
-            // update number of enemy cards
-            document.getElementById("enemy").innerHTML = "Enemy faceup card: " + enemy[0] + 
-                " || # cards: " + enemy.length;
-        }
+        // update number of enemy cards
+        document.getElementById("enemy").innerHTML = "Enemy faceup card: " + enemy[0] + 
+            " || # cards: " + enemy.length;
     }
     else {
         handScore += addPoints(player[newLen - 1][1]);
         if (handScore > 21) {
             window.alert("You have lost! Over 21");
+            valid = false;
         }
-        else {
-            // update cards display
-            var cardsPlayer = "";
-            for (var i = 0; i < hand.length; i++) {
-                cardsPlayer = cardsPlayer + hand[i] + " | ";
-            }
-            document.getElementById("info").innerHTML = "Your cards: " + cardsPlayer;
+        // update cards display
+        var cardsPlayer = "";
+        for (var i = 0; i < hand.length; i++) {
+            cardsPlayer = cardsPlayer + hand[i] + " | ";
         }
+        document.getElementById("info").innerHTML = "Your cards: " + cardsPlayer;
     }
+    return valid;
 }
 
 function start() {
@@ -96,25 +96,30 @@ function start() {
 
 function stand() {
     // let enemy draw once
-    if (drawChance()) {
-        drawAction(enemy);
+    if (drawChance() && (enemyScore < handScore)) {
+        var eLost = drawAction(enemy);
     }
 
-    // game ends whether enemy draws
-    if (enemyScore > handScore) {
-        document.getElementById("info").innerHTML = "Enemy has won";
-        document.getElementById("enemy").innerHTML = "";
-        alert("Enemy has won");
+    // update card info
+    var cardsPlayer = "";
+    for (var i = 0; i < hand.length; i++) {
+        cardsPlayer = cardsPlayer + hand[i] + " | ";
     }
-    else if (enemyScore < handScore) {
-        document.getElementById("info").innerHTML = "You have won!";
-        document.getElementById("enemy").innerHTML = "";
-        alert("You have won!");
+    var cardsEnemy = "";
+    for (var i = 0; i < enemy.length; i++) {
+        cardsEnemy = cardsEnemy + enemy[i] + " | ";
+    }
+    document.getElementById("info").innerHTML = "Your cards: " + cardsPlayer;
+    document.getElementById("enemy").innerHTML = "Enemy cards: " + cardsEnemy;
+
+    if ((enemyScore > handScore) && eLost) {
+        alert("Enemy has won with score " + enemyScore);
+    }
+    else if ((enemyScore < handScore) || !eLost) {
+        alert("You have won! With score " + handScore);
     }
     else {
-        document.getElementById("info").innerHTML = "Tie game";
-        document.getElementById("enemy").innerHTML = "";
-        alert("Tie game!");
+        alert("Tie game! Nobody wins.");
     }
 }
 
