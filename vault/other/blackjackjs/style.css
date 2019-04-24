@@ -1,0 +1,64 @@
+:root {
+    --col0: #455A64;    /* dark primary         */
+    --col1: #CFD8DC;    /* light primary        */
+    --col2: #607D8B;    /* primary              */
+    --col3: #FFFFFF;    /* text                 */
+    --col4: #4CAF50;    /* accent               */
+    --col5: #212121;    /* primary text         */
+    --col6: #757575;    /* secondary text       */
+    --col7: #BDBDBD;    /* divider              */
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    padding: 30px;
+    width: 75%;
+    background-color: var(--col1);
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: var(--col5);
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: var(--col5);
+}
+
+p {
+   font-family: 'Roboto', sans-serif; 
+    color: var(--col6);
+}
+
+hr {
+    width: 80%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--col7);
+}
+
+button {
+    background-color: var(--col4);
+    border: none;
+    color: var(--col3);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: var(--col0);
+    color: var(--col6);
+}
