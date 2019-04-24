@@ -35,7 +35,7 @@ h3 {
 
 p {
    font-family: 'Roboto', sans-serif; 
-    color: var(--col6);
+   color: var(--col6);
 }
 
 hr {
@@ -60,5 +60,10 @@ button {
 
 button:hover {
     background-color: var(--col0);
+    color: var(--col6);
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
     color: var(--col6);
 }

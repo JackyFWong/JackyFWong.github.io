@@ -24,7 +24,7 @@ function addPoints(card) {
 // this is intended to make it less likely to draw again if the score is higher
 function drawChance() {
     var chance = Math.floor(Math.random() * enemyScore);
-    if (chance === 1) { return true; }
+    if (chance <= 10) { return true; }
     else { return false; }
 }
 
@@ -40,8 +40,8 @@ function drawAction(player) {
         }
         else {
             // update number of enemy cards
-            document.getElementById("enemy").innerHTML = "Enemy card: " + enemy[0][0] + 
-                " and his number of cards: " + enemy.length;
+            document.getElementById("enemy").innerHTML = "Enemy faceup card: " + enemy[0] + 
+                " || # cards: " + enemy.length;
         }
     }
     else {
@@ -90,7 +90,8 @@ function start() {
 
     // this never updates as you dont get to see new enemy cards
     var cardsEnemy = enemy[0];
-    document.getElementById("enemy").innerHTML = "Enemy faceup card: " + cardsEnemy;
+    document.getElementById("enemy").innerHTML = "Enemy faceup card: " + 
+        cardsEnemy + " || # cards: " + enemy.length;
 }
 
 function stand() {
