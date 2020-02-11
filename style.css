@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    padding-top: 56px;
+}
+
+#intro {
+    min-height: calc(100% - 56px);
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+
+    background: url("cooper.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#blurb {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+    border: 3px solid white;
+    border-radius: 10px;
+
+    box-shadow: 7px 7px 5px black;
+}
+
+#contact {
+    min-height: calc(100% - 112px);
+    min-height: calc(100vh - 112px);
+    display: flex;
+    background: url("cooper.jpg") no-repeat center center;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+}
+
+#pdf {
+    width: 100%;
+    min-height: 100px;
+    max-height: 80vh;
+    height: calc(100vw * 1.294);
+}
+
+.skilltable td {
+    width: 50%;
+}
+
+.icon {
+    margin: 3em auto;
+    width: 50%;
+    height: auto;
+}
+
+section:before {
+    height: 54px;
+    content: "";
+    display: block;
+}
