@@ -32,7 +32,7 @@ body {
     min-height: calc(100% - 112px);
     min-height: calc(100vh - 112px);
     display: flex;
-    background: url("cooper.jpg") no-repeat center center;
+    background: url("assets/cooper.jpg") no-repeat center center;
     background-size: cover;
 
     padding: 0;
