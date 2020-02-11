@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
 
-    background: url("cooper.jpg") no-repeat center center;
+    background: url("assets/cooper.jpg") no-repeat center center;
     background-size: cover;
 }
 
