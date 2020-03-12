@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    padding-top: 56px;
+}
+
+#bkg {
+    min-height: calc(100% - 56px);
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+
+    background: url("glacier.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#blurb {
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+
+    border: 3px solid white;
+    border-radius: 10px;
+
+    box-shadow: 7px 7px 5px black;
+}

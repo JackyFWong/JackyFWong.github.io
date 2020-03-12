@@ -1,22 +1,66 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="../styles.css">
-    <title>The Vault | Jacky Wong</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Jacky Wong</title>
 </head>
 
-<body> <div class="everything">
-    <div class="heading">
-        <h1>The Vault</h1>
-        <ul class="navbar">
-            <li><a href="presentations/index.html">Presentations</a></li>
-            <li><a href="">Other Stuff</a></li>
-        </ul>
-    </div>
+<body data-spy="scroll" data-target=".navbar">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="../index.html">Jacky Wong</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html#about">About</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../skills.html">Skills</a>
+                    </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" 
+                        data-toggle="dropdown">Portfolios</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../portfolio_code.html">Code</a>
+                        <a class="dropdown-item" href="../portfolio_creative.html">Creative</a>
+                        </div>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <div class="jumbotron jumbotron-fluid" id="bkg">
+        <div class="container-md" id="blurb">
+            <h1 class="display-4 text-center">Other Stuff</h1>
+            <div class="container-lg mx-auto">
+            <ul class="list-group list-group-flush center">
+                <li class="list-group-item list-group-item-dark"><a href="blackjackjs/index.html">blackjackjs</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
 
-    <div class="content">
-        <h2 class="section"><a href="blackjackjs/index.html">blackjackjs</a></h2>
-    </div>
-</div></body>
-
+    <div class="container-fluid text-center bg-dark text-white p-2 mt-3">
+        <p class="p-2 m-0">Clemson, SC | 2020</p>
+        </div>
+</body>
 </html>
