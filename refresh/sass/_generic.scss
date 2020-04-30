@@ -1,0 +1,53 @@
+html {
+  background: url("../img/bkg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  //max-width: 1440px;
+}
+
+.threestack{
+  border: 2px solid #cccccc;
+  height: 350px;
+  background: #ddd;
+}
+
+.container{ // main container 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.threestack{//parent 
+  &.one{//child
+    background: url(../img/face.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height:325px;
+    width: 100%;
+  }
+  &.two{
+    background: url(../img/heroshot.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    height:325px;
+    width: 100%;
+  }
+}
+
+.down {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 50px;
+    width: auto;
+  }
+}

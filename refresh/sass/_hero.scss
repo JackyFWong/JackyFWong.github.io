@@ -1,0 +1,153 @@
+@import 'variables';
+
+.hero{
+  height: calc(100vh - 156px);
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  .hero-title{
+    margin: 0 auto;
+    background: #000;
+    position: relative;
+    top: 20%;
+    h1{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #fff;
+      font-size:64px;
+      font-family: $fontH;
+      text-align: center;
+    }
+  }
+}
+.container{
+  &.threeblock{
+    border: 2px solid $blue;
+    text-align: center;
+    height: 300px;
+    img{
+      width: 100%;
+      max-width: 350px;
+    }
+    p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .third{
+      border: 3px solid $blue;
+      height: 70px;
+      background: pink;
+      height: auto;
+    }
+  }
+
+  &.twoblock{
+    border: 2px solid $blue;
+    text-align: center;
+    p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .half{
+      border: 3px solid $blue;
+      height: 350px;
+      background: #ccc;
+    }
+  }
+}
+
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    top: 1px;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
+
+  .st-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 220px);
+    position: relative; 
+    z-index: 95;
+    .st-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .greet {
+        color: $yellow;
+        padding: 0;
+        h1 {
+          font-family: $fontCN;
+          font-weight: normal;
+          line-height: 0.7em;
+          font-size: 400px;
+          white-space: pre;
+        }
+        #translate {
+          font-family: $fontB;
+          vertical-align: middle;
+          text-align: center;
+          font-size: 25px;
+          font-weight: 300;
+          font-style: italic;
+          line-height: 1em;
+        }
+      }
+      .st{
+        color: $body-text;
+        margin-top: -200px;
+        h1 {
+          font-family: $fontH;
+          font-weight: normal;
+          text-align: right;
+          font-size: 110px;
+        }
+        h2 {
+          font-family: $fontB;
+          font-weight: normal;
+          text-align: right;
+          font-size: 60px;
+          margin: 0;
+        }
+      }
+    }
+  }
