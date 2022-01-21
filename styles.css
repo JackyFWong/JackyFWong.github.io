@@ -1,0 +1,12 @@
+html { 
+    scroll-behavior: smooth;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.brand-logo {
+    font-family: 'Rubik', sans-serif;
+}
