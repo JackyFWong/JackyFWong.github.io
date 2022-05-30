@@ -1,0 +1,344 @@
+@import url('href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('href="https://fonts.googleapis.com/css?family=Roboto+Slab|Spicy+Rice');
+@import url('href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('href="https://fonts.googleapis.com/css?family=Roboto+Slab|Spicy+Rice');
+/* line 1, ../sass/_generic.scss */
+body {
+  background: white;
+  margin: 0;
+}
+
+/* line 6, ../sass/_generic.scss */
+.threestack {
+  border: 2px solid #cccccc;
+  height: 350px;
+  background: #ddd;
+}
+
+/* line 13, ../sass/_generic.scss */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* line 20, ../sass/_generic.scss */
+.threestack.one {
+  background: url(../img/face.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 325px;
+  width: 100%;
+}
+/* line 28, ../sass/_generic.scss */
+.threestack.two {
+  background: url(../img/heroshot.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 325px;
+  width: 100%;
+}
+
+/* line 38, ../sass/_generic.scss */
+.about .face {
+  background: url(../img/heroshot.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  height: 600px;
+  width: 100%;
+  -webkit-box-shadow: -23px 10px 71px -6px #2f71d4;
+  -moz-box-shadow: -23px 10px 71px -6px #2f71d4;
+  box-shadow: -23px 10px 71px -6px #2f71d4;
+}
+/* line 49, ../sass/_generic.scss */
+.about .wrap {
+  padding-left: 40px;
+}
+/* line 51, ../sass/_generic.scss */
+.about .wrap h1 {
+  font-size: 64px;
+  color: #055FC8;
+  font-family: "Roboto Slab", serif;
+}
+/* line 56, ../sass/_generic.scss */
+.about .wrap p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* line 1, ../sass/_body.scss */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 3, ../sass/_hero.scss */
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/face.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+/* line 10, ../sass/_hero.scss */
+.hero .hero-title {
+  margin: 0 auto;
+  background: #000;
+  position: relative;
+  top: 20%;
+}
+/* line 15, ../sass/_hero.scss */
+.hero .hero-title h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 64px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+/* line 27, ../sass/_hero.scss */
+.container.threeblock {
+  border: 2px solid #4C9CFA;
+  text-align: center;
+  height: 300px;
+}
+/* line 31, ../sass/_hero.scss */
+.container.threeblock img {
+  width: 100%;
+  max-width: 350px;
+}
+/* line 38, ../sass/_hero.scss */
+.container.threeblock p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 42, ../sass/_hero.scss */
+.container.threeblock .third {
+  border: 3px solid #4C9CFA;
+  height: 70px;
+  background: pink;
+  height: auto;
+}
+/* line 51, ../sass/_hero.scss */
+.container.twoblock {
+  border: 2px solid #4C9CFA;
+  text-align: center;
+}
+/* line 54, ../sass/_hero.scss */
+.container.twoblock p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 58, ../sass/_hero.scss */
+.container.twoblock .half {
+  border: 3px solid #4C9CFA;
+  height: 350px;
+  background: #ccc;
+}
+
+/* line 69, ../sass/_hero.scss */
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+
+/* line 74, ../sass/_hero.scss */
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+
+/* line 79, ../sass/_hero.scss */
+.video-container {
+  position: relative;
+  top: 1px;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+/* line 90, ../sass/_hero.scss */
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+/* line 96, ../sass/_hero.scss */
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+/* line 103, ../sass/_hero.scss */
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+}
+
+/* line 109, ../sass/_hero.scss */
+.video-container video.fillWidth {
+  width: 100%;
+}
+
+/* line 1, ../sass/_navigation.scss */
+header {
+  height: 150px;
+  width: 100%;
+}
+/* line 4, ../sass/_navigation.scss */
+header .wrap {
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #4C9CFA;
+}
+/* line 13, ../sass/_navigation.scss */
+header .wrap .nav.hidden {
+  display: inline;
+}
+/* line 16, ../sass/_navigation.scss */
+header .wrap .nav .nav-items {
+  display: flex;
+  font-size: 18px;
+  justify-content: space-around;
+}
+/* line 20, ../sass/_navigation.scss */
+header .wrap .nav .nav-items .item {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+/* line 23, ../sass/_navigation.scss */
+header .wrap .nav .nav-items .item a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 26, ../sass/_navigation.scss */
+header .wrap .nav .nav-items .item a:hover {
+  color: red;
+}
+
+/*  DEFAULT SETTINGS:
+        MOBILE: 600px & below
+        TABLET: 600px - 900px
+        DSKTOP: 900px & up
+*/
+/* line 7, ../sass/_grid.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/***** GRID *****/
+/* line 13, ../sass/_grid.scss */
+.column {
+  float: left;
+  padding: 10px 10px;
+}
+
+/* line 17, ../sass/_grid.scss */
+.nofloat {
+  float: none;
+}
+
+/* line 20, ../sass/_grid.scss */
+.column.full {
+  width: 100%;
+}
+
+/* line 23, ../sass/_grid.scss */
+.column.twothirds {
+  width: 66.666666%;
+}
+
+/* line 26, ../sass/_grid.scss */
+.column.threefourths {
+  width: 75%;
+}
+
+/* line 29, ../sass/_grid.scss */
+.column.fourfifths {
+  width: 80%;
+}
+
+/* line 32, ../sass/_grid.scss */
+.column.fivesixths {
+  width: 83.333333%;
+}
+
+/* line 35, ../sass/_grid.scss */
+.column.threequarter {
+  width: 75%;
+}
+
+/* line 38, ../sass/_grid.scss */
+.column.half {
+  width: 50%;
+}
+
+/* line 41, ../sass/_grid.scss */
+.column.third {
+  width: 33.333333%;
+}
+
+/* line 44, ../sass/_grid.scss */
+.column.fourth {
+  width: 25%;
+}
+
+/* line 47, ../sass/_grid.scss */
+.column.fifth {
+  width: 20%;
+}
+
+/* line 50, ../sass/_grid.scss */
+.column.sixth {
+  width: 16.666666%;
+}
+
+/***** TOOLS *****/
+/* line 54, ../sass/_grid.scss */
+.center {
+  float: none;
+  margin: auto;
+}
+
+/* line 58, ../sass/_grid.scss */
+.nospace {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* line 62, ../sass/_grid.scss */
+.flowopposite {
+  float: right;
+}
+
+/* line 65, ../sass/_grid.scss */
+.nopadding {
+  padding: 0 !important;
+}
+
+/* line 68, ../sass/_grid.scss */
+.clearall {
+  clear: both;
+}
+
+@media screen and (max-width: 1400px) {
+  /* line 3, ../sass/_responsive.scss */
+  .hidden {
+    display: none;
+  }
+}

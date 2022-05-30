@@ -1,0 +1,66 @@
+// Variables
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+// main colors
+$blue: #1A1D3C;
+$yellow: #D1Ac34;
+$body-text: #DCDCDC;
+
+
+// Primary Color
+$primary-color: $blue;
+$primary-color-light-1: lighten($primary-color,2%);
+$primary-color-light-2: lighten($primary-color,4%);
+$primary-color-light-3: lighten($primary-color,6%);
+$primary-color-light-4: lighten($primary-color,8%);
+$primary-color-dark-1:  darken($primary-color,2%);
+$primary-color-dark-2:  darken($primary-color,4%);
+$primary-color-dark-3:  darken($primary-color,6%);
+$primary-color-dark-4:  darken($primary-color,8%);
+
+
+$nav-color: #D25342;
+
+// Secondary Color
+$secondary-color: $yellow;
+$secondary-color-light-1: lighten($secondary-color,2%);
+$secondary-color-light-2: lighten($secondary-color,4%);
+$secondary-color-light-3: lighten($secondary-color,6%);
+$secondary-color-light-4: lighten($secondary-color,8%);
+$secondary-color-dark-1:  darken($secondary-color,2%);
+$secondary-color-dark-2:  darken($secondary-color,4%);
+$secondary-color-dark-3:  darken($secondary-color,6%);
+$secondary-color-dark-4:  darken($secondary-color,8%);
+
+// Grays
+$light-gray:#F7F8F9;
+$medium-gray: #4A5E7B;
+$dark-gray: #273850;
+$darkest-gray:#292929;
+
+// Mobile
+$l-breakpoint: 1400px;
+$m-breakpoint: 500px;
+$s-breakpoint: 350px;
+
+// Fonts
+$fontH: 'Rubik', sans-serif;
+$fontB: 'Karla', serif;
+$fontCN: 'Ma Shan Zheng', serif;
+$fontX: 'Roboto', sans-serif;
+
+// Button
+$button-padding: 15px 30px 15px 30px;
+$button-font-size: 18px;
+$bottom-border: 1px solid #324A5E;
+
+
+$grid-1: 100%;
+$grid-2: 50% 50%;
+$grid-3: 33% 33% 33%;
+$grid-4: 25% 25% 25% 25%;
