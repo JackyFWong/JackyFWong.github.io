@@ -1,506 +1,565 @@
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@300&display=swap');
-    </style> 
+      @import url("https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@300&display=swap");
+    </style>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js"></script>
 
     <title>Jacky Wong</title>
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+  </head>
 
-<body>
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper cyan darken-2">
-                <a class="brand-logo" href="#intro">&nbspJW</a>
-                <a href="#" data-target="mobile" class="sidenav-trigger">
-                    <i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#extracurricular">Extracurricular</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="resume.pdf" target="_blank">Resume</a></li>
-                </ul>
-            </div>
-        </nav>
+  <body>
+    <div id="intro" class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper cyan darken-2">
+          <a class="brand-logo" href="#intro">&nbspJW</a>
+          <a href="#" data-target="mobile" class="sidenav-trigger">
+            <i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#extracurricular">Extracurricular</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="resume.pdf" target="_blank">Resume</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <ul class="sidenav" id="mobile">
-        <li><a class="sidenav-close" href="#skills">Skills</a></li>
-        <li><a class="sidenav-close" href="#experience">Experience</a></li>
-        <li><a class="sidenav-close" href="#extracurricular">Extracurricular</a></li>
-        <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
-        <li><a class="sidenav-close" href="resume.pdf" target="_blank">Resume</a></li>
+      <li><a class="sidenav-close" href="#skills">Skills</a></li>
+      <li><a class="sidenav-close" href="#experience">Experience</a></li>
+      <li>
+        <a class="sidenav-close" href="#extracurricular">Extracurricular</a>
+      </li>
+      <li><a class="sidenav-close" href="#portfolio">Portfolio</a></li>
+      <li>
+        <a class="sidenav-close" href="resume.pdf" target="_blank">Resume</a>
+      </li>
     </ul>
 
-
     <div class="container">
-        <header>
-            <div class="section">
-                <h1>Hi, I'm Jacky Wong</h1>
+      <header>
+        <div class="section">
+          <h1>Hi, I'm Jacky Wong</h1>
+        </div>
+        <div class="section">
+          <div class="row">
+            <div class="col s12 m6">
+              <h3>
+                M.S. in C.S. student at Clemson University with a variety of
+                technical and design experience...
+              </h3>
             </div>
-            <div class="section">
-                <div class="row">
-                    <div class="col s6">
-                        <h3>M.S. in C.S. student at Clemson University with a 
-                            variety of technical and design experience...
-                        </h3>
-                    </div>
-                    <div class="col s6">
-                        <div class="card cyan lighten-3">
-                            <div class="card-content">
-                                <h3>...and aspiring frontend developer</h3>
-                            </div>
-                            <div class="card-action">
-                                <a class="black-text" href="#portfolio">
-                                    <div class="valign-wrapper">My projects
-                                        <i class="material-icons">chevron_right</i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col s12 m6">
+              <div class="card cyan lighten-3">
+                <div class="card-content">
+                  <h3>...and aspiring frontend developer</h3>
                 </div>
-
-                <div class="center-align">
-                    <a class="btn-large cyan darken-1" href="mailto:jackyw@g.clemson.edu">
-                        <div class="valign-wrapper">
-                            <i class="material-icons">email</i>&nbspEmail
-                        </div>
-                    </a>
-                    <a class="btn-large cyan darken-1" href="https://linkedin.com/in/jackyfwong">
-                        <div class="valign-wrapper">
-                            <i class="material-icons">person</i>&nbspLinkedIn
-                        </div>
-                    </a>
-                    <a class="btn-large cyan darken-1" href="https://github.com/jackyfwong">
-                        <div class="valign-wrapper">
-                            <i class="material-icons">code</i>&nbspGitHub
-                        </div>
-                    </a>
+                <div class="card-action">
+                  <a class="black-text" href="#portfolio">
+                    <div class="valign-wrapper">
+                      My projects
+                      <i class="material-icons">chevron_right</i>
+                    </div>
+                  </a>
                 </div>
+              </div>
             </div>
-        </header>
+          </div>
 
-        <div class="divider"></div>
+          <div class="center-align">
+            <a
+              class="btn-large cyan darken-1"
+              href="mailto:jackyw@g.clemson.edu"
+            >
+              <div class="valign-wrapper">
+                <i class="material-icons">email</i>&nbspEmail
+              </div>
+            </a>
+            <a
+              class="btn-large cyan darken-1"
+              href="https://linkedin.com/in/jackyfwong"
+            >
+              <div class="valign-wrapper">
+                <i class="material-icons">person</i>&nbspLinkedIn
+              </div>
+            </a>
+            <a
+              class="btn-large cyan darken-1"
+              href="https://github.com/jackyfwong"
+            >
+              <div class="valign-wrapper">
+                <i class="material-icons">code</i>&nbspGitHub
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
 
-        <main>
-            <div id="skills" class="section">
-                <h2>Skills</h2>
-                <p>Varying proficiency</p>
-                <table class="responsive-table">
-                    <tbody>
-                        <tr>
-                            <td>HTML</td>
-                            <td>CSS</td>
-                            <td>JavaScript</td>
-                            <td>Angular</td>
-                            <td>Vue.js</td>
-                        </tr>
-                        <tr>
-                            <td>Bootstrap 4</td>
-                            <td>Materialize</td>
-                            <td>Bulma</td>
-                            <td>UX Design</td>
-                            <td>Requirement analysis</td>
-                        </tr>
-                        <tr>
-                            <td>Python</td>
-                            <td>C++</td>
-                            <td>Linux</td>
-                            <td>Agile</td>
-                            <td>REST/GraphQL</td>
-                        </tr>
-                        <tr>
-                            <td>Photoshop</td>
-                            <td>Illustrator</td>
-                            <td>InDesign</td>
-                            <td>XD</td>
-                            <td>Premiere Pro</td>
-                        </tr>
-                        <tr>
-                            <td>Group Collaboration</td>
-                            <td>Time-Sensitive Development</td>
-                            <td>Customer Service</td>
-                            <td>HCI Research</td>
-                            <td>Remote Work</td>
-                        </tr>
-                    </tbody>
-                </table>
+      <div class="divider"></div>
+
+      <main>
+        <div id="skills" class="section">
+          <h2>Skills</h2>
+          <table class="responsive-table">
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>React</td>
+                <td>Bootstrap 4</td>
+                <td>XD</td>
+                <td>REST/GraphQL</td>
+                <td>Photoshop</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Angular</td>
+                <td>Materialize</td>
+                <td>Storybook</td>
+                <td>Python</td>
+                <td>Illustrator</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Vue.js</td>
+                <td>Bulma</td>
+                <td>Figma</td>
+                <td>C++</td>
+                <td>Premiere Pro</td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td>Agile</td>
+                <td>Group Collaboration</td>
+                <td>Time-Sensitive Development</td>
+                <td>Customer Service</td>
+                <td>HCI Research</td>
+                <td>Remote Work</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="experience" class="section">
+          <h2>Experience</h2>
+          <div>
+            <h3>Full Stack Software Engineer Intern</h3>
+            <p>FlexGen | Durham, NC (Hybrid and Remote)</p>
+            <p>May 2022 - Present</p>
+            <ul>
+              <li>
+                Developed web app updates and features in React and Node.js
+              </li>
+              <li>Implemented new brand guidelines in Storybook and Figma</li>
+              <li>
+                Utilized inter-and intra-team communication to improve software
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Laptop Support Technician</h3>
+            <p>Clemson University | Clemson, SC</p>
+            <p>January 2022 - Present</p>
+            <ul>
+              <li>Part-time position</li>
+              <li>
+                Provided software support for Clemson students and faculty
+                computers
+              </li>
+              <li>
+                Facilitated laptop hardware support between technicians and
+                customers
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Samples System Co-Op</h3>
+            <p>Shaw Industries | Remote</p>
+            <p>June 2021 - August 2021</p>
+            <ul>
+              <li>
+                Resolved issues and added features to an internal,
+                enterprise-level web application with Angular, Java, SQL
+              </li>
+              <li>
+                Collaborated with team to meet requirements created from
+                existing analysis
+              </li>
+              <li>
+                Gained exposure in analysis and testing newly completed tasks
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Enterprise Business Intelligence Co-Op</h3>
+            <p>Shaw Industries | Remote</p>
+            <p>August 2020 - December 2020</p>
+            <ul>
+              <li>
+                Automated Active Directory, Tableau, and SAP BusinessObjects
+                processes with Python, RESTful/GraphQL APIs, SQL
+              </li>
+              <li>
+                Developed code with ease-of-maintenance, ease-of-use, and
+                automation in mind
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Identity and Access Management Intern</h3>
+            <p>LPL Financial | Remote</p>
+            <p>June 2020 - August 2020</p>
+            <ul>
+              <li>Received training in IAM and ForgeRock Identity Platform</li>
+              <li>Developed APIs using MuleSoft Anypoint Studio and Mule 4</li>
+              <li>Exposure to Agile software development</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Server and Host</h3>
+            <p>Original Benjamin's Calabash Seafood Buffet</p>
+            <p>Summer 2014 - Summer 2019</p>
+            <ul>
+              <li>
+                Worked together with coworkers to serve customer needs needs and
+                ensure satisfaction
+              </li>
+              <li>
+                Greeted and guided customers through a 1000-seat 11-room
+                restaurant
+              </li>
+              <li>Trained 3 new employees on host duties</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="extracurricular" class="section">
+          <h2>Extracurricular</h2>
+          <div>
+            <h3>CUhackit Mentor</h3>
+            <p>Clemson University</p>
+            <p>January 2022</p>
+            <ul>
+              <li>
+                Advised 4+ student teams on project design and technical
+                implementation
+              </li>
+              <li>Presented introductory workshop on APIs to beginners</li>
+            </ul>
+          </div>
+          <div>
+            <h3>GCS Design-a-Thon 2021</h3>
+            <p>Clemson University</p>
+            <p>February 2021</p>
+            <ul>
+              <li>
+                Designed a theoretical software system/suite that allows a user
+                to easily toggle between remote and in-person work
+              </li>
+              <li>
+                Utilized iterative wireframing process to create a high quality
+                mockup in Adobe XD
+              </li>
+              <li>
+                Collaborated in a team of 4 students over a period of three days
+              </li>
+            </ul>
+            <a
+              class="btn-small cyan darken-1"
+              href="https://youtu.be/87Wq08704us"
+              >Video presentation</a
+            >
+          </div>
+          <div>
+            <h3>CUhackit Participation</h3>
+            <p>Clemson University</p>
+            <p>
+              Collaborated in a team of multiple students within a 24 hour time
+              limit to complete a working prototype.
+            </p>
+            <ul>
+              <li>
+                January 2021 - Built frontend for widget-based networking site:
+                HTML, CSS, JavaScript -
+                <a
+                  class="cyan-text darken-1"
+                  href="https://devpost.com/software/linkr-dtxg8r"
+                  >Devpost</a
+                >
+              </li>
+              <li>
+                January 2020 - Built frontend for a generalized multiplayer game
+                interface: HTML, CSS, JavaScript -
+                <a
+                  class="cyan-text darken-1"
+                  href="https://devpost.com/software/cuhackit2020"
+                  >Devpost</a
+                >
+              </li>
+              <li>
+                January 2019 - Developed keyboard virtualization program: Python
+                and JSON -
+                <a
+                  class="cyan-text darken-1"
+                  href="https://devpost.com/software/dessert-dive"
+                  >Devpost</a
+                >
+              </li>
+              <li>
+                January 2018 - Developed an online multiplayer terminal-based
+                poker game: Python -
+                <a
+                  class="cyan-text darken-1"
+                  href="https://devpost.com/software/pyker"
+                  >Devpost</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>HackGT 7</h3>
+            <p>Remote</p>
+            <p>October 2020</p>
+            <ul>
+              <li>
+                Built digital room-based proximity video chatting web
+                application
+              </li>
+              <li>
+                Designed and wireframed the mockups and user experience: Adobe
+                XD, Illustrator
+              </li>
+              <li>
+                Built frontend for application: HTML, CSS (Bootstrap 4),
+                JavaScript
+              </li>
+            </ul>
+            <p>
+              <a
+                class="btn-small cyan darken-1"
+                href="https://devpost.com/software/shape-our-space"
+              >
+                Devpost</a
+              >
+            </p>
+          </div>
+          <div>
+            <h3>ICPC Southeast Regional Division I</h3>
+            <p>Kennesaw State University</p>
+            <p>November 2019</p>
+            <ul>
+              <li>
+                Participated in Association for Computing Machinery programming
+                competition
+              </li>
+              <li>Utilized C++ for creating solutions to contest problems</li>
+              <li>Collaborated in a team of 3 students</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Clemson University Rocket Engineering</h3>
+            <h4>Avionics Programming</h4>
+            <p>August 2017 - May 2021</p>
+            <ul>
+              <li>
+                Participation in Intercollegiate Rocket Engineering Competition
+              </li>
+              <li>Helped maintain code for Clemson University's rockets</li>
+              <li>Designed and implemented base station dashboard interface</li>
+            </ul>
+            <a
+              class="btn-small cyan darken-1"
+              href="https://github.com/CURocketEngineering"
+            >
+              GitHub organization</a
+            >
+          </div>
+          <div>
+            <h3>RockSat-C</h3>
+            <p>August 2018 - October 2019</p>
+            <ul>
+              <li>
+                Developed experiments contained and launched in a NASA sounding
+                rocket
+              </li>
+              <li>
+                Authored 15-page mission report for Clemson's payload/experiment
+              </li>
+              <li>
+                Created code for GPS module and camera-based vision system
+              </li>
+            </ul>
+            <a
+              class="btn-small cyan darken-1"
+              href="https://github.com/JackyFWong/vectorizer/blob/master/FinalReport_Clemson.pdf"
+            >
+              Paper</a
+            >
+            <a
+              class="btn-small cyan darken-1"
+              href="https://github.com/JackyFWong/vectorizer"
+            >
+              Code</a
+            >
+          </div>
+        </div>
+
+        <div id="portfolio" class="section row">
+          <h2>Portfolio</h2>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title">
+                  Workout Motivation Through Technology-Mediated Training
+                </span>
+                <p>
+                  Research paper looking at the effects technology has on an
+                  individual's motivation for working out. Utilized grounded
+                  theory approach and interviews.
+                </p>
+                <p>HCC 8310, Fall 2021.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a class="black-text" href="paper-tmt.pdf"> PDF </a>
+              </div>
             </div>
-
-            <div id="experience" class="section">
-                <h2>Experience</h2>
-                <div>
-                    <h3>Software Engineer Intern</h3>
-                    <p>FlexGen | Durham, NC (Hybrid)</p>
-                    <p>May 2022 - August 2022</p>
-                    <ul>
-                        <li>Current position, details incoming</li>
-                        <li>Full-stack developer tasks</li>
-                        <li>React and Node.js</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Laptop Support Technician</h3>
-                    <p>Clemson University | Clemson, SC</p>
-                    <p>January 2022 - May 2022</p>
-                    <ul>
-                        <li>Part-time position</li>
-                        <li>Provided software support for Clemson students 
-                            and faculty computers
-                        </li>
-                        <li>Facilitated laptop hardware support between 
-                            technicians and customers
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Samples System Co-Op</h3>
-                    <p>Shaw Industries | Remote</p>
-                    <p>June 2021 - August 2021</p>
-                    <ul>
-                        <li>Utilized Angular, Java, and SQL</li>
-                        <li>Fixed issues and added features to an internal, 
-                            enterprise-level application</li>
-                        <li>Collaborated with 2 teammates to meet requirements created 
-                            from analysis</li>
-                        <li>Gained exposure in analysis and testing</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Enterprise Business Intelligence Co-Op</h3>
-                    <p>Shaw Industries | Remote</p>
-                    <p>August 2020 - December 2020</p>
-                    <ul>
-                        <li>Utilized Python, RESTful/GraphQL APIs, and SQL</li>
-                        <li>Automated Active Directory, Tableau, and SAP 
-                            BusinessObjects processes</li>
-                        <li>Developed code with ease-of-maintenance, ease-of-use, and 
-                            automation in mind</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Identity and Access Management Intern</h3>
-                    <p>LPL Financial | Remote</p>
-                    <p>June 2020 - August 2020</p>
-                    <ul>
-                        <li>Received training in IAM and ForgeRock Identity 
-                            Platform</li>
-                        <li>Developed APIs using MuleSoft Anypoint Studio and 
-                            Mule 4</li>
-                        <li>Exposure to Agile software development</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Server and Host</h3>
-                    <p>Original Benjamin's Calabash Seafood Buffet</p>
-                    <p>Summer 2014 - Summer 2019</p>
-                    <ul>
-                        <li>Worked together with coworkers to serve customer 
-                            needs needs and ensure satisfaction
-                        </li>
-                        <li>Greeted and guided customers through a 
-                            1000-seat 11-room restaurant
-                        </li>
-                        <li>Trained 3 new employees on host duties</li>
-                    </ul>
-                </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title">
+                  How SE Models Can Be Used to Determine the Quality of Software
+                  Being Developed
+                </span>
+                <p>
+                  Research paper looking at the differences the choice of
+                  software engineering model used in a project can have on
+                  software quality. Utilized surveys.
+                </p>
+                <p>CPSC 8710, Fall 2021.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a class="black-text" href="paper-models.pdf"> PDF </a>
+              </div>
             </div>
-
-            <div id="extracurricular" class="section">
-                <h2>Extracurricular</h2>
-                <div>
-                    <h3>GCS Design-a-Thon 2021</h3>
-                    <p>Clemson University</p>
-                    <p>February 2021</p>
-                    <ul>
-                        <li>Designed a theoretical software system/suite
-                            that allows a user to easily toggle between 
-                            remote and in-person work
-                        </li>
-                        <li>Utilized iterative wireframing process to create 
-                            a high quality mockup in Adobe XD
-                        </li>
-                        <li>Collaborated in a team of 4 students over a 
-                            period of three days
-                        </li>
-                    </ul>
-                    <a class="btn-small cyan darken-1"
-                    href="https://youtu.be/87Wq08704us">Video presentation</a>
-                </div>
-                <div>
-                    <h3>CUhackit Participation</h3>
-                    <p>Clemson University</p>
-                    <p>Collaborated in a team of multiple students within a 
-                        24 hour time limit to complete a working prototype.
-                    </p>
-                    <ul>
-                        <li>January 2021 - Built frontend for widget-based 
-                            networking site: HTML, CSS, JavaScript - 
-                            <a class="cyan-text darken-1"
-                            href="https://devpost.com/software/linkr-dtxg8r">Devpost</a>
-                        </li>
-                        <li>January 2020 - Built frontend for a generalized 
-                            multiplayer game interface: HTML, CSS, JavaScript -
-                            <a class="cyan-text darken-1"
-                            href="https://devpost.com/software/cuhackit2020">Devpost</a>
-                        </li>
-                        <li>January 2019 - Developed keyboard virtualization 
-                            program: Python and JSON - 
-                            <a class="cyan-text darken-1"
-                            href="https://devpost.com/software/dessert-dive">Devpost</a>
-                        </li>
-                        <li>January 2018 - Developed an online multiplayer 
-                            terminal-based poker game: Python - 
-                            <a class="cyan-text darken-1"
-                            href="https://devpost.com/software/pyker">Devpost</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>HackGT 7</h3>
-                    <p>Remote</p>
-                    <p>October 2020</p>
-                    <ul>
-                        <li>Built digital room-based proximity video 
-                            chatting web application
-                        </li>
-                        <li>Designed and wireframed the mockups and user 
-                            experience: Adobe XD, Illustrator
-                        </li>
-                        <li>Built frontend for application: HTML, 
-                            CSS (Bootstrap 4), JavaScript
-                        </li>
-                    </ul>
-                    <p><a class="btn-small cyan darken-1"
-                        href="https://devpost.com/software/shape-our-space">
-                        Devpost</a></p>
-                </div>
-                <div>
-                    <h3>ICPC Southeast Regional Division I</h3>
-                    <p>Kennesaw State University</p>
-                    <p>November 2019</p>
-                    <ul>
-                        <li>Participated in Association for Computing
-                            Machinery programming competition
-                        </li>
-                        <li>Utilized C++ for creating solutions to contest
-                            problems
-                        </li>
-                        <li>Collaborated in a team of 3 students</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3>Clemson University Rocket Engineering</h3>
-                    <h4>Avionics Programming</h4>
-                    <p>August 2017 - May 2021</p>
-                    <ul>
-                        <li>Participation in Intercollegiate Rocket
-                            Engineering Competition
-                        </li>
-                        <li>Helped maintain code for Clemson University's
-                            rockets
-                        </li>
-                        <li>Designed and implemented base station dashboard 
-                            interface</li>
-                    </ul>
-                    <a class="btn-small cyan darken-1" 
-                        href="https://github.com/CURocketEngineering">
-                        GitHub organization</a>
-                </div>
-                <div>
-                    <h3>RockSat-C</h3>
-                    <p>August 2018 - October 2019</p>
-                    <ul>
-                        <li>Developed experiments contained and launched 
-                            in a NASA sounding rocket
-                        </li>
-                        <li>Authored 15-page mission report for Clemson's
-                            payload/experiment
-                        </li>
-                        <li>Created code for GPS module and camera-based 
-                            vision system
-                        </li>
-                    </ul>
-                    <a class="btn-small cyan darken-1" 
-                        href="https://github.com/JackyFWong/vectorizer/blob/master/FinalReport_Clemson.pdf">
-                        Paper</a>
-                    <a class="btn-small cyan darken-1" 
-                        href="https://github.com/JackyFWong/vectorizer">
-                        Code</a>
-                </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title">
+                  Effects of Game Explanation on Continued Gameplay Probability
+                  of a VR Game
+                </span>
+                <p>
+                  Research proposal outlining a theoretical study that would
+                  investigate whether providing a tutorial to a new VR game
+                  player would make them more likely to replay.
+                </p>
+                <p>HCC 8330, Fall 2021.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a class="black-text" href="paper-explanation.pdf"> PDF </a>
+              </div>
             </div>
-
-            <div id="portfolio" class="section">
-                <h2>Portfolio</h2>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">Lockup</span>
-                                <p>Design for a theoretical studying and 
-                                    concentration app.
-                                </p>
-                                <p>GC 3400, Spring 2020.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="_refresh/work/lockup.html">
-                                    Details
-                                </a>
-                                <a class="black-text" href="https://projects.invisionapp.com/share/KWW68AGGA8F#">
-                                    InVision Mockup
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">
-                                    Workout Motivation Through Technology-Mediated Training
-                                </span>
-                                <p>Research paper looking at the effects 
-                                    technology has on an individual's motivation 
-                                    for working out. Utilized grounded theory 
-                                    approach and interviews.
-                                </p>
-                                <p>HCC 8310, Fall 2021.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="paper-tmt.pdf">
-                                    PDF
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">
-                                    How SE Models Can Be Used to Determine the 
-                                    Quality of Software Being Developed
-                                </span>
-                                <p>Research paper looking at the differences 
-                                    the choice of software engineering model 
-                                    used in a project can have on software 
-                                    quality. Utilized surveys.
-                                </p>
-                                <p>CPSC 8710, Fall 2021.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="paper-models.pdf">
-                                    PDF
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">
-                                    Effects of Game Explanation on Continued 
-                                    Gameplay Probability of a VR Game
-                                </span>
-                                <p>Research proposal outlining a theoretical 
-                                    study that would investigate whether 
-                                    providing a tutorial to a new VR game 
-                                    player would make them more likely to 
-                                    replay.
-                                </p>
-                                <p>HCC 8330, Fall 2021.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="paper-explanation.pdf">
-                                    PDF
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">
-                                    Creating an Android Auto App
-                                </span>
-                                <p>Lecture created by myself, presented to 
-                                    undergraduate students in cross-listed 
-                                    mobile app development class.
-                                </p>
-                                <p>Consists of lecture, presentation, lab 
-                                    activity, and lab guide video.
-                                </p>
-                                <p>CPSC 6150, Spring 2021.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="paper-explanation.pdf">
-                                    PDF
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
-                        <div class="card">
-                            <div class="card-content">
-                                <span class="card-title">
-                                    Doctor Car
-                                </span>
-                                <p>Design for a car maintenance app.
-                                </p>
-                                <p>Utilized contexutal design, ideation, 
-                                    think-aloud testing, and interaction 
-                                    analysis.
-                                </p>
-                                <p>CPSC 6140, Spring 2021.</p>
-                            </div>
-                            <div class="card-action cyan lighten-5">
-                                <a class="black-text" href="https://xd.adobe.com/view/a6a2ca9e-2eac-4dce-b6f2-0918dcf2e576-f3f1/">
-                                    Adobe XD Mockup
-                                </a>
-                                <a class="black-text" href="https://spark.adobe.com/page/TTeQwjoNgU4Gs/">
-                                    Adobe Spark Presentation
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title"> Creating an Android Auto App </span>
+                <p>
+                  Lecture created by myself, presented to undergraduate students
+                  in cross-listed mobile app development class.
+                </p>
+                <p>
+                  Consists of lecture, presentation, lab activity, and lab guide
+                  video.
+                </p>
+                <p>CPSC 6150, Spring 2021.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a class="black-text" href="paper-explanation.pdf"> PDF </a>
+              </div>
             </div>
-        </main>
-    </div> <!-- container -->
+          </div>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title"> Doctor Car </span>
+                <p>Design for a car maintenance app.</p>
+                <p>
+                  Utilized contexutal design, ideation, think-aloud testing, and
+                  interaction analysis.
+                </p>
+                <p>CPSC 6140, Spring 2021.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a
+                  class="black-text"
+                  href="https://xd.adobe.com/view/a6a2ca9e-2eac-4dce-b6f2-0918dcf2e576-f3f1/"
+                >
+                  Adobe XD Mockup
+                </a>
+                <a
+                  class="black-text"
+                  href="https://spark.adobe.com/page/TTeQwjoNgU4Gs/"
+                >
+                  Adobe Spark Presentation
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card medium">
+              <div class="card-content">
+                <span class="card-title">Lockup</span>
+                <p>Design for a theoretical studying and concentration app.</p>
+                <p>GC 3400, Spring 2020.</p>
+              </div>
+              <div class="card-action cyan lighten-5">
+                <a class="black-text" href="_refresh/work/lockup.html">
+                  Details
+                </a>
+                <a
+                  class="black-text"
+                  href="https://projects.invisionapp.com/share/KWW68AGGA8F#"
+                >
+                  InVision Mockup
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- container -->
 
     <footer class="page-footer cyan darken-3">
-        <div class="footer-copyright">
-            <div class="container">
-                2022 | Clemson University
-            </div>
-        </div>
+      <div class="footer-copyright">
+        <div class="container">2022 | Clemson University</div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
