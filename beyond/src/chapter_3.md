@@ -11,13 +11,13 @@ _It’s just a novice spell, Grayce!_
 
 _I apologize, my Lord, I swear I’m following your instructions perfectly!_
 
-_Tsk. You can’t make a small hand appear before you, what do you think will_
-_happen when you engage in battle with someone skilled in the arcane?_
+_Tsk. You can’t make a small hand appear before you, what do you think will
+happen when you engage in battle with someone skilled in the arcane?_
 
 _I… I don’t know!_
 
-_Your ‘fancy sword tricks’ aren’t going to save you and you have no means of_
-_escape. You. Will. Die._
+_Your ‘fancy sword tricks’ aren’t going to save you and you have no means of
+escape. You. Will. Die._
 
 A scowl appeared on my face while recalling the scene. While no longer as
 pitiful as I was back then, my skills in the arcane are still lacking. This
@@ -170,7 +170,7 @@ handmade tapestries that perk up the atmosphere. A small fireplace crackles in
 the corner. And there are a few groups of people sitting around wooden tables,
 enjoying each others’ company.
 
-The barkeep looks up from cleaning her mugs. “Hiya! Just yourself?”
+The barkeep looks up from cleaning her mugs. “Hiya! Just yourself?” 
 
 I nod.
 
@@ -293,7 +293,7 @@ At this point, someone speaks. “It would hardly be an intrusion, plus you look
 like you escaped from some cave or prison by the skin of your teeth! I think you
 need someone to look after your back if you want to stay in this world!”
 exclaimed the dwarf, who I presume is Jydnak. “Really, I’d really like for you
-to reconsider… uhh…” 
+to reconsider… uhh…”
 
 “Eirlys.”
 

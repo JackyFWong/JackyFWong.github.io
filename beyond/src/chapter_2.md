@@ -58,8 +58,8 @@ again, and seal it away.
 My success, if I can call it that, was not without heavy loss. I lost a lot of
 energy and blood… My legs were gone below the knees, my right arm dissolved by
 the ooze, a large gash ran down the entirety of my left side. I managed to stop
-the bleeding through some magic, but I felt him. I felt Athar looming over my
-pathetic self as I continued to use my strength to hold the ooze back. 
+the bleeding through some magic, but I felt him. I felt a sense of doom looming
+over my pathetic self as I continued to use my strength to hold the ooze back. 
 
 The pool of blood I had laid in has mostly dried up by now as I shift dirt
 around to spread it out. _I cannot believe I let some rowdy wanna-be do-gooders
@@ -100,8 +100,8 @@ _…_
 
 I was dying.
 
-His presence was not my imagination, Athar was coming and I was absolutely
-powerless to stop him.
+Its presence was not my imagination, death was coming and I was absolutely
+powerless to stop it.
 
 “Help…” I croaked. Of course, nothing could hear me. Not even the stars could
 notice my pleading.
@@ -160,7 +160,7 @@ the slash down my left began to finally close.
 
 That was addicting.
 
-Feeling the caress of Athar move away right before my very eyes is a feeling I
+Feeling the caress of death move away right before my very eyes is a feeling I
 will not forget. And in the moment, I could do nothing but relish in the warmth
 of life that I was so starved of. The cries of my victim’s allies could not
 reach my senses, nor did I want to stop.
@@ -195,6 +195,39 @@ all-encompassing burning pain. As my eyes lowered, they saw the adventurers
 unsheathe their weapons.
 
 _A pointless exercise… So this is how it ends…_
+
+<br />
+
+I cannot recall how long the ensuing battle took. I only remember being jolted
+awake as one of the fools targeted the ooze with lightning magic. My gaze turned
+towards the origin of the strike. Beaten, battered, but still standing. Even
+retrospectively, their persistence bewilders me.
+
+Suspended within the body of the ooze, I braced myself. If these brave
+adventurers were putting up a fight, there were no excuses for me. It took my
+entire strength to shift inch-by-inch to a possibly better position. But try as
+I could, I could not manage to summon my sword.
+
+Right before the strike connected, I saw a brilliant flash of light in front of
+my eyes. Halret’s sword burned through the ooze and momentarily created a small
+gap of air… an opportunity. At this moment, I drew my blade and slashed sideways
+at the ooze, rupturing its outer membrane from within. An eruption of goo as I
+collapsed outside of it, coughing for the dusty air. Instinctively, my head
+turned to the threat, where there was not just the one ooze I imprisoned
+previously, but rather two slightly smaller ones engaging the adventurers.
+
+From the gash I made, the larger of the two monsters began to extrude what could
+only be identified as a head… a grotesque caricature of my head as if mocking
+me.
+
+“You are much stronger than the previous group. It’s a shame that this… crippled
+parasite cannot do much to help you,” it shrieked. “Sorry, but our date is
+over.”
+
+An incantation began from the head, mystical words weaving what I had assumed
+was a powerful spell. I desperately hurled my sword at the source but simply
+slipped through the head. My eyes met its own for a second before the room
+suddenly shifted to a new reality.
 
 <br />
 
@@ -268,7 +301,7 @@ slowly shifted around to face me.
 seemingly analyzing me again.
 
 “Eir-” before a searing pain within my chest stopped my response. _Must be the
-acid._ Quickly kneeling back down, I restarted with a groan. “Well, Eirlys is
+acid. _Quickly kneeling back down, I restarted with a groan. “Well, Eirlys is
 what most would call me… But it would be a disservice to my… allies. Grayce.”
 
 “Are you a-”
@@ -296,6 +329,7 @@ reached all but three paces away, she turned around.
 nearly died! And for what? To save this so-called vampire from her own damn
 problem? Us four should have ran right back through the labyrinth and- and…” She
 slumped down. A pause, then a glance backwards. A few tears ran down her cheeks.
+
 
 <br />
 
@@ -354,14 +388,14 @@ glances towards me first in confusion, then bewilderment.
 My response: “Well, once you add everything together, it would seem as if that
 is the case. Not like there’s anything else here.” Speechless, the adventurers
 continued to listen. “By the looks on your faces, no, I only realized that I am
-your proverbial grail of a weapon a bit ago.
+your proverbial grail of a weapon a few minutes ago.
 
 “Really, I am flattered by all of the stories you lot have been telling. A lot
 of fairy tales are based in truth, I will have you know. It’s just that mortals
 often miss important details and exaggerate others. Although, it has been a long
 time since I flattened an army.”
 
-“Ah… By Europa’s luck. And we’ve nursed our target back to health,” Ashryn
+“Ah… By Europa’s luck. And we’ve _nursed_ our target back to health,” Ashryn
 retorted. Their donations, at that point, have allowed me to regain my
 regeneration abilities, evident by the elf’s gesture at my new arm. “How are we
 supposed to drag a vampire back to the Church when they can kill us at a
