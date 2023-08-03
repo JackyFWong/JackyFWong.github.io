@@ -6,8 +6,6 @@ calm waters of the Gulf reflect a lone torch on the vessel, bobbing up and down
 as its passengers move around and settle into a long journey home. There are
 four of them; it looks like the older lady is taking the first shift navigating.
 
-_Dalila…_
-
 A gentle wind blew in from the south, shifting around the top layers of sand on
 the beach below me. I took a deep breath of the cool night air, the first in a
 while.
